@@ -1,0 +1,22 @@
+📼 Needs 📼
+
+📼 Todos 📼
+- Finish the Damage Pipeline
+- I want a console for some reason, ingame console
+
+
+
+Gunplay
+- Center ROF around BPM that make sense musically
+	- Explore song BPM's for references
+Gunsounds
+- Explore different measures and accentuations for beats
+	- 4/4 with hit on 1 for example
+	- Compose in FL for testing, make "beats"
+	- Components could be casing sounds, clicks, clacks, hisses and so forth
+A world to want to be in
+- Make myself a little world that i enjoy being in
+	- Think Fyrestone in borderlands
+Mechanics
+- Abilitites, like in Borderlands 1 (and my own mechanics)
+- Items, like in Synthetik

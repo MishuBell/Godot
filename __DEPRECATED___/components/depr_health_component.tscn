@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkpx8njohjutf"]
+
+[ext_resource type="Script" uid="uid://cumt40c7qfpm8" path="res://__DEPRECATED___/components/depr_health_component.gd" id="1_6peu4"]
+
+[node name="Health Component" type="Node"]
+script = ExtResource("1_6peu4")
+
+[node name="Health Regen Tickrate" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
