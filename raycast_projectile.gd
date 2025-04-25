@@ -5,7 +5,12 @@ extends Area3D
 # TODO: Determine the maximum speed a projectile is allowed to have 
 # before collision detection via raycast is becoming inconsistent 
 # ToThink: Not sure if this needs to be an area3d anymore 
+# Write a func that shoots the proj and increments the speed
+# and a collision must happen as its bein shot at the collider
+# save the value for the speed at the point where the collision breaks
+
 @export var speed = 1000.0
+
 @export var max_speed_allowed = # Determine this
 var direction = Vector3.FORWARD
 var last_position = Vector3.ZERO
@@ -20,6 +25,7 @@ func _ready():
 
 func _process(delta: float) -> void:
 	frame_counter += 1
+# increment speed too
 	move_projectile(delta)
 	if frame_counter % raycast_checks_every != 0:
 		return
@@ -27,7 +33,8 @@ func _process(delta: float) -> void:
 	var new_position = global_position + (direction * speed * delta)
 	check_collision_between(last_position, new_position)
 	last_position = global_position
-
+# for good control quit the application 
+# after one frame
 func move_projectile(delta):
 	var movement = -transform.basis.z * speed * delta
 	position += movement
