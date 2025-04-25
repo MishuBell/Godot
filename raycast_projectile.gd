@@ -2,7 +2,8 @@ extends Area3D
 
 # DEBUG
 # TODO: Draw a line between the two points for debugging
-
+# TODO: Determine the maximum speed a projectile is allowed to have 
+# before collision detection via raycast is becoming inconsistent 
 @export var speed = 1000.0
 
 var direction = Vector3.FORWARD
