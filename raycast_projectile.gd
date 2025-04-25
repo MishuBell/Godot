@@ -4,7 +4,7 @@ extends Area3D
 # TODO: Draw a line between the two points for debugging
 # TODO: Determine the maximum speed a projectile is allowed to have 
 # before collision detection via raycast is becoming inconsistent 
-
+# ToThink: Not sure if this needs to be an area3d anymore 
 @export var speed = 1000.0
 @export var max_speed_allowed = # Determine this
 var direction = Vector3.FORWARD
