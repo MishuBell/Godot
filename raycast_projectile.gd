@@ -4,13 +4,14 @@ extends Area3D
 # TODO: Draw a line between the two points for debugging
 # TODO: Determine the maximum speed a projectile is allowed to have 
 # before collision detection via raycast is becoming inconsistent 
-@export var speed = 1000.0
 
+@export var speed = 1000.0
+@export var max_speed_allowed = # Determine this
 var direction = Vector3.FORWARD
 var last_position = Vector3.ZERO
 @export var raycast_checks_every = 1
 var frame_counter = 0
-var damage = 10
+
 
 @onready var damage_package: DamagePackage = $"Damage Package"
 
