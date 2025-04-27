@@ -99,6 +99,10 @@ The Sirens' Call()
 Heed the sirens call. Heed the sirens call. Heed the sirens call.  
 Marks an enemy - kill that enemy, get rewarded.  
 
+Prayerbook
+Has a chance to activate blessing X for X seconds. Has charges / pages that you rip out for the prayer to work
+
+
 Taxation Papers  
 Upon acquisition, initiates dynamic currency accrual tracking, retroactively interfacing with earnings. Extrapolates transactional variance to generate a normalized submission requirement for fiscal declaration.  
 After pick up, tracks your earnings. When used, the exact amount of earnings must be put to get a % of that earnings as tax payback. If the input number is incorrect, a penalty must be payed.  
