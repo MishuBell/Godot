@@ -102,10 +102,17 @@ Marks an enemy - kill that enemy, get rewarded.
 Prayerbook
 Has a chance to activate blessing X for X seconds. Has charges / pages that you rip out for the prayer to work
 
-
 Taxation Papers  
 Upon acquisition, initiates dynamic currency accrual tracking, retroactively interfacing with earnings. Extrapolates transactional variance to generate a normalized submission requirement for fiscal declaration.  
 After pick up, tracks your earnings. When used, the exact amount of earnings must be put to get a % of that earnings as tax payback. If the input number is incorrect, a penalty must be payed.  
+
+Banner
+Makes you carry a banner that adds to damage or something - or maybe heals. But you cant use 2h weapons for the time
+another click on the banner disables it and puts it on cd
+
+Pack o Cigs
+You have 24 cigarettes. Smoking kills! When entering combat, combat is slowed down by a small amount of time, for an amount of time. After that, you get withdrawal, making combat faster for an amount of time
+
 
 Flavourtexts  
 The candle that burns twice as bright burns half as long  
