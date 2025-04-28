@@ -1,0 +1,37 @@
+Weapon mechanics
+
+Weapon-Rythms
+Have guns have different bpm cadences:
+
+| BPM | Seconds per Beat (interval) |
+| 60 | 1.00 sec (1 beat per second) |
+| 120 | 0.50 sec (2 beats per second) |
+| 180 | 0.33 sec (3 beats per second) |
+
+var bpm = 120  # Example BPM
+var wait_time = 60.0 / bpm
+timer.wait_time = wait_time
+
+Fill the arrays for gun sounds with different accentuations. 4/4 beats with hits on one, or offbeat clutter sounds. Imagine psytrance beats and how they put the base between the beats, etc. Take real life tangible songs for the bpms!
+
+I could work with the shell-casings plings for example too. Hisses, clicks, clacks. Should probably do FL first and then see how to implement, but i think it'll work.
+
+
+Bullet pattern  
+Animate the model inside its local  
+Can make the hitboxes to that it doesnt suck also  
+
+Weapon bobbing  
+Super light  
+
+Weapon sway  
+Just a little bit, subtle  
+
+Reloading  
+Definitely have reloading. Its a sensual experience too.  
+Clean reload -> Takes longer, no jamming - full bar  
+Fast reload -> can jam bullets - hit reload a second time  
+Make it like in Synthetik. Hit the right spot, have a clean reload  
+Can be used for further bonuses  
+Shift-R eject mag
+R reload mag
